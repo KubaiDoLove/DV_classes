@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>United States Educational Attainment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="app.js" defer></script>
+
+    <style>
+        body {
+            margin-top: 50px;
+            font: 10px sans-serif;
+            background : LightGray;
+        }
+
+        .infoGraphic{
+            background : white;
+            padding: 10px;
+            box-shadow: 10px 10px;
+        }
+
+        #tooltip{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class = "container">
+    <div class = "row">
+        <div class="col">
+        </div>
+        <div class="col-10 text-center">
+            <div class="infoGraphic card">
+                <div class="card-body">
+                    <h1 id="title" class="card-title h1">United States Educational Attainment</h1>
+                    <h2 id="description" class="card-title h2">Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</h2>
+                    <p id="graph" class="card-text block-center"></p>
+                    <!--<a href="" class="btn btn-primary" target="_blank">More Info</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="col">
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
